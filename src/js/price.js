@@ -1,1 +1,0 @@
-import '../pages/price.css';

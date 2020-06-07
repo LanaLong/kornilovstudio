@@ -1,0 +1,36 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');*/
+/*font-family: 'Roboto', sans-serif*/
+/*@font-face {font-family: "Neutraface Text Book Alt"; src: url("//db.onlinewebfonts.com/t/0a1c1ff783f602434d40487fc051b835.eot"); src: url("//db.onlinewebfonts.com/t/0a1c1ff783f602434d40487fc051b835.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0a1c1ff783f602434d40487fc051b835.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0a1c1ff783f602434d40487fc051b835.woff") format("woff"), url("//db.onlinewebfonts.com/t/0a1c1ff783f602434d40487fc051b835.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0a1c1ff783f602434d40487fc051b835.svg#Neutraface Text Book Alt") format("svg"); }*/
+
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/roboto-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    src: url('./fonts/roboto-medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Neutraface';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/neutraface-text-book-alt.woff') format('woff');
+}
+/*@font-face {*/
+/*    font-family: 'Roboto Slab';*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*    src: url('./fonts/robotoslab-regular.woff') format('woff');*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Source Sans Pro';*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*    src: url('./fonts/sourcesanspro-regular.woff') format('woff');*/
+/*}*/
