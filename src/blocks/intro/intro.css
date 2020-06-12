@@ -1,6 +1,14 @@
+@import url(./__img/intro__img.css);
+@import url(./__img/_arr/intro__img_arr.css);
+
 .intro {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
+    margin: auto;
+    z-index: 5;
 }

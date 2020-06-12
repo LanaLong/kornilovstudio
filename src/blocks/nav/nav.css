@@ -4,7 +4,6 @@
 @import url(./__button/nav__button.css);
 
 .nav {
-    /*display: flex;*/
     color: #fff;
-    z-index: 1;
+    z-index: 5;
 }
