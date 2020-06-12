@@ -1,0 +1,9 @@
+.nav__button {
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 0.6rem 1.2rem;
+}

@@ -1,3 +1,10 @@
+@import url(./__container/header__container.css);
+
 .header {
     font-family: Neutraface, sans-serif;
+    background-color: #1c1c1b;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    z-index: 1;
 }

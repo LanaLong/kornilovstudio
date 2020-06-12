@@ -1,0 +1,13 @@
+@import url(./__subscript/cover-heading__subscript.css);
+
+.cover-heading {
+    font-family: Neutraface, sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align:center;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: 0;
+    margin: 0 0 20px;
+}

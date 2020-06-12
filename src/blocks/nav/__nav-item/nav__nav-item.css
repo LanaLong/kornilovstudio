@@ -1,0 +1,10 @@
+.nav__nav-item {
+    padding-right: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 1rem;
+}
+
+.nav__nav-item:last-of-type {
+    padding-right: 0;
+}
