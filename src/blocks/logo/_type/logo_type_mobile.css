@@ -1,0 +1,14 @@
+.logo_type_mobile {
+    display: none;
+    font-size: 2em;
+    color: #fff;
+    padding-top: 20px;
+    z-index: 5;
+}
+
+@media screen and (max-width: 1200px) {
+    .logo_type_mobile {
+        display: block;
+        margin-right: 60px;
+    }
+}

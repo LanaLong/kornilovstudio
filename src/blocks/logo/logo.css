@@ -1,8 +1,21 @@
+@import url(./_type/logo_type_sign.css);
+@import url(./_type/logo_type_mobile.css);
+
 .logo {
-    font-family: Neutraface, sans-serif;
-    text-transform: uppercase;
+    display: block;
     color: #fff;
-    font-size: 1.2rem;
-    letter-spacing: .1rem;
-    z-index: 5;
+    margin-right: 40px;
+    z-index: 6;
 }
+
+@media screen and (max-width:1200px) {
+    .logo {
+        display: none;
+    }
+}
+
+/*@media screen and (max-width: 900px) {*/
+/*    .logo{*/
+/*        display: none;*/
+/*    }*/
+/*}*/

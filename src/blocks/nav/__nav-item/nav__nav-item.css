@@ -1,10 +1,22 @@
 .nav__nav-item {
-    padding-right: 20px;
+    font-family: Neutraface, sans-serif;
+    padding-right: 15px;
     text-transform: uppercase;
     letter-spacing: .1rem;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .nav__nav-item:last-of-type {
     padding-right: 0;
+}
+
+.nav__nav-item:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    .nav__nav-item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
 }

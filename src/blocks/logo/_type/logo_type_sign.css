@@ -1,0 +1,14 @@
+.logo_type_sign {
+    z-index: 5;
+    color: #fff;
+    font-size: 2em;
+    display: block;
+    /*margin-rigth: 20px;*/
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo_type_sign{
+        display: block;
+    }
+}

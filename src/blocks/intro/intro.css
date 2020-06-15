@@ -12,3 +12,22 @@
     margin: auto;
     z-index: 5;
 }
+
+@media screen and (max-width: 468px) {
+    .intro{
+        max-width: 420px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .intro{
+        max-width: 380px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .intro{
+        max-width: 300px;
+    }
+}

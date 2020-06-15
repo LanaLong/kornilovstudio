@@ -4,3 +4,16 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .nav__nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: center;
+        line-height: 3em;
+    }
+
+}
+

@@ -1,9 +1,27 @@
 .contact__phone {
-    font-family: Neutraface, sans-serif;
+    font-family: Arial, sans-serif;
     text-transform: uppercase;
     color: #fff;
     font-size: 1.2rem;
+    text-decoration: none;
     letter-spacing: .1rem;
-    padding-right: 35px;
+    padding-right: 25px;
     z-index: 5;
+    cursor: pointer;
+}
+
+.contact__phone:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 1300px) {
+    .contact__phone {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contact__phone {
+        display: none;
+    }
 }

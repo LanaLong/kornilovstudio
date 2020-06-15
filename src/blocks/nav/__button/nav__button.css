@@ -1,10 +1,25 @@
 .nav__button {
     display: flex;
+    font-family: Neutraface, sans-serif;
+    font-size: 1em;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.1em;
     color: #fff;
     background-color: transparent;
     border: 1px solid #fff;
     padding: 0.6rem 1.2rem;
     z-index: 5;
+    cursor: pointer;
 }
+
+.nav__button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #1c1c1b;
+}
+
+@media screen and (max-width: 768px) {
+    .nav__button{
+        display: none;
+    }
+}
+
