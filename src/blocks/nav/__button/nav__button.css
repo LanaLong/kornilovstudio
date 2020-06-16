@@ -17,6 +17,12 @@
     color: #1c1c1b;
 }
 
+@media screen and (max-width: 900px) {
+    .nav__button {
+        font-size: 0.9rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .nav__button{
         display: none;

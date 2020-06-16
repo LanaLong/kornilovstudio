@@ -15,10 +15,9 @@
         position: absolute;
         width: 100%;
         height: calc(100vh - 80px);
-        background-color: rgba(28, 28, 27, 0.9);
+        background-color: rgba(0,0,0, 0.9);
         left: 0;
-        top: 80px;
-        /*top: 0;*/
+        top: 100px;
         -webkit-transition: 0.5s;
         -moz-transition: 0.5s;
         -ms-transition: 0.5s;

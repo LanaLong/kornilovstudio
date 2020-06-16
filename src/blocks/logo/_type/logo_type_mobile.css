@@ -1,6 +1,5 @@
 .logo_type_mobile {
     display: none;
-    font-size: 2em;
     color: #fff;
     padding-top: 20px;
     z-index: 5;
@@ -10,5 +9,11 @@
     .logo_type_mobile {
         display: block;
         margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .logo_type_mobile  {
+        margin-right: 40px;
     }
 }

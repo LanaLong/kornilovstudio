@@ -15,7 +15,13 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+    .nav__nav-item {
+        font-size: 0.9rem;
+    }
+}
+
+    @media screen and (max-width: 768px) {
     .nav__nav-item {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }

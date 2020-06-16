@@ -9,9 +9,12 @@
     .nav__nav-list {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        position: absolute;
+        top: 3%;
+        left: 50%;
+        transform: translateX(-50%);
         text-align: center;
+        margin: auto;
         line-height: 3em;
     }
 
