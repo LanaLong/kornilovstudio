@@ -1,0 +1,24 @@
+.grid {
+}
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.grid-item, .grid-sizer {
+    width: 33.33%;
+    padding: 10px;
+}
+@media screen and (max-width: 768px) {
+    .grid-item, .grid-sizer {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .grid-item, .grid-sizer {
+        width: 100%;
+    }
+}
+.grid-item img{
+    width: 100%;
+}
