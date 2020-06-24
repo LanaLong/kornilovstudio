@@ -6,7 +6,7 @@ import GLightbox from 'glightbox';
 import '../../js/utils/isotope/layout-mode.js';
 import '../../js/utils/isotope/isotope.pkgd.min.js';
 import '../../js/utils/isotope/fit-columns';
-import '../../js/utils/isotope/photo31337';
+// import '../../js/utils/isotope/photo31337';
 
 
 // const lightbox = GLightbox({ ...options });
@@ -32,41 +32,44 @@ import '../../js/utils/isotope/photo31337';
 // });
 
 
-document.addEventListener("DOMContentLoaded", function(event) {
-    // var lightbox = GLightbox({selector: '.glightbox', onOpen: () => {
-    //     if(this.body === null){
-    //         body = document.body;
-    //     }
-    // }});
-    var iso = new Isotope( '.grid', {
-        itemSelector: '.grid-item',
-        percentPosition: true,
+// document.addEventListener("DOMContentLoaded", function(event) {
+//
+//     var iso = new Isotope( '.grid', {
+//         itemSelector: '.grid-item',
+//         percentPosition: true,
+//         masonry: {
+//             columnWidth: '.grid-sizer'
+//         }
+//     });
+//     if(typeof photo !== 'undefined') {
+//         for(var i = 0; i < photo.length; i++) {
+//             var p = photo[i];
+//             var j = new Image();
+//             j.onload = function(){
+//                 var a = document.createElement('a');
+//                 document.querySelector('.grid').appendChild(a);
+//
+//                 console.log(photo[i])
+//                 a.append(this);
+//                 a.className = 'grid-item';
+//                 a.setAttribute('href', this.src);
+//                 iso.appended(a);
+//
+//             }
+//             j.src = 'image.jpg';
+//             j.setAttribute('src', p.src);
+//             j.setAttribute('alt', p.name);
+//             j.setAttribute('title', p.name);
+//         }
+//         iso.layout();
+//     }
+// });
+
+var grid = document.querySelector('.grid');
+var iso = new Isotope( grid, {
+    itemSelector: '.grid-item',
+    percentPosition: true,
         masonry: {
-            columnWidth: '.grid-sizer'
+    columnWidth: '.grid-sizer'
         }
-    });
-    if(typeof photo !== 'undefined') {
-        for(var i = 0; i < photo.length; i++) {
-            var p = photo[i];
-            var j = new Image();
-            j.onload = function(){
-                var a = document.createElement('a');
-                document.querySelector('.grid').appendChild(a);
-
-                console.log(photo[i])
-                a.append(this);
-                a.className = 'grid-item';
-                a.setAttribute('href', this.src);
-                iso.appended(a);
-                // lightbox.reload();
-            }
-            j.src = 'image.jpg';
-            j.setAttribute('src', p.src);
-            j.setAttribute('alt', p.name);
-            j.setAttribute('title', p.name);
-        }
-        iso.layout();
-    }
 });
-
-

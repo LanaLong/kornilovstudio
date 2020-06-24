@@ -18,7 +18,15 @@
         <a class="mc" href="../price/price.html" target="_self">Price</a>
 
         <!-- Gallery Isotop -->
-        <div class="grid"><div class="grid-sizer"></div></div>
+        <div class="grid"
+             data-isotope='{ "itemSelector": ".grid-item", "masonry": { "columnWidth": 200 } }'>
+        >
+<!--            <div class="grid-sizer">-->
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+<!--            </div>-->
+
+        </div>
     </div>
     <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
 
