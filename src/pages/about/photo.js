@@ -1,0 +1,21 @@
+photo = [
+    {"name": "1", "src": "../../images/weddings/01/01-1.jpg"},
+    {"name": "2", "src": "../../images/weddings/01/01-2.jpg"},
+    {"name": "3", "src": "../../images/weddings/01/01-3.jpg"},
+    {"name": "4", "src": "../../images/weddings/01/01-4.jpg"},
+    {"name": "5", "src": "../../images/weddings/01/01-5.jpg"},
+    {"name": "6", "src": "../../images/weddings/01/01-6.jpg"},
+    {"name": "7", "src": "../../images/weddings/01/01-7.jpg"},
+    {"name": "8", "src": "../../images/weddings/01/01-8.jpg"},
+    {"name": "9", "src": "../../images/weddings/01/01-9.jpg"},
+    {"name": "10", "src": "../../images/weddings/01/01-10.jpg"},
+    {"name": "11", "src": "../../images/weddings/01/01-11.jpg"},
+    {"name": "12", "src": "../../images/weddings/01/01-12.jpg"},
+    {"name": "13", "src": "../../images/weddings/01/01-13.jpg"},
+    {"name": "14", "src": "../../images/weddings/01/01-14.jpg"},
+    {"name": "15", "src": "../../images/weddings/01/01-15.jpg"},
+    {"name": "16", "src": "../../images/weddings/01/01-16.jpg"},
+    {"name": "17", "src": "../../images/weddings/01/01-17.jpg"},
+    {"name": "18", "src": "../../images/weddings/01/01-18.jpg"},
+    {"name": "19", "src": "../../images/weddings/01/01-19.jpg"}
+]
