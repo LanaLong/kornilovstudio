@@ -2,6 +2,7 @@ import './about.css';
 import './photo.js';
 import GLightbox from 'glightbox';
 
+console.log('Проверка console.log in ABOUT');
 
 import '../../js/utils/isotope/layout-mode.js';
 import '../../js/utils/isotope/isotope.pkgd.min.js';

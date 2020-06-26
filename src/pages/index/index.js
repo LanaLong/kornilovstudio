@@ -3,7 +3,7 @@ import GLightbox from 'glightbox';
 
 const lightbox = GLightbox({ ...options });
 
-
+console.log('Проверка console.log in INDEX');
 // ISOTOPE for Gallery
 // import '../../js/utils/isotope/isotope.pkgd.min.js';
 // import '../../js/utils/isotope/fit-columns.js';
