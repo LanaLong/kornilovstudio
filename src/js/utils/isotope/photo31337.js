@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-	var lightbox = GLightbox({selector: '.glightbox'});
 	var iso = new Isotope( '.grid', {
 		itemSelector: '.grid-item',
 		percentPosition: true,
@@ -7,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			columnWidth: '.grid-sizer'
 		}
 	});
-	if(typeof photo31337 !== 'undefined') {
-		for(var i = 0; i < photo31337.length; i++) {
-			var p = photo31337[i];
+	if(typeof photos !== 'undefined') {
+		for(var i = 0; i < photos.length; i++) {
+			var p = photos[i];
 			var j = new Image(); 
 			j.onload = function(){
 				var a = document.createElement('a');
