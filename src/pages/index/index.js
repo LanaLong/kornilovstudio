@@ -1,27 +1,47 @@
 import './index.css';
-// ISOTOPE for Gallery
-// import '../../../node_modules/isotope-layout/dist/isotope.pkgd.min.js';
-// import '../../js/utils/isotope/fit-columns.js';
-// import '../../js/utils/isotope/photo31337.js';
 
-// Ligthbox for Gallery
-// import '../../js/utils/lightbox2/js/lightbox.js'
+// importing css of GLightBox
+import "../../vendor/glightbox/glightbox.css";
 
+// importing GLightBox
+import "../../vendor/glightbox/glightbox.js";
 
+// importing jQuery
+import $ from "../../../node_modules/jquery/dist/jquery.min.js";
 
+// importing Isotope
+import Isotope from "../../../node_modules/isotope-layout/dist/isotope.pkgd.min.js";
 
-// import '../../js/utils/isotopHelper';
+// importing photos
+import {photos} from "./photo.js";
 
-// FROM https://isotope.metafizzy.co/#install
-// const elem = document.querySelector('.grid');
-// const iso = new Isotope( elem, {
-//     // options
-//     itemSelector: '.grid-item',
-//     layoutMode: 'fitRows'
-// });
-//
-// // element argument can be a selector string
-// //   for an individual element
-// const iso = new Isotope( '.grid', {
-//     // options
-// });
+$(() => {
+    const lightbox = GLightbox({selector: ".glightbox"});
+
+    const iso = new Isotope( ".grid", {
+        itemSelector: ".grid-item",
+        percentPosition: true,
+        masonry: {
+            columnWidth: ".grid-sizer"
+        }
+    });
+    if(typeof photos !== 'undefined') {
+        for(const photo of photos) {
+            const imageElement = new Image();
+            imageElement.onload = function(){
+                const a = document.createElement('a');
+                document.querySelector('.grid').appendChild(a);
+                a.append(this);
+                a.className = 'grid-item glightbox';
+                a.dataset.type = "image";
+                a.setAttribute('href', this.src);
+                iso.appended(a);
+                lightbox.reload();
+            }
+            imageElement.setAttribute('src', photo.src);
+            imageElement.setAttribute('alt', photo.name);
+            imageElement.setAttribute('title', photo.name);
+        }
+        iso.layout();
+    }
+});

@@ -1,0 +1,21 @@
+export const photos = [
+    {"name": "1", "src": "https://i.ibb.co/sFFhp25/01-1.jpg"},
+    {"name": "2", "src": "https://i.ibb.co/DVMJM3s/01-2.jpg"},
+    {"name": "3", "src": "https://i.ibb.co/93dLHZg/01-3.jpg"},
+    {"name": "4", "src": "https://i.ibb.co/T4LsgrP/01-4.jpg"},
+    {"name": "5", "src": "https://i.ibb.co/xmgwgkT/01-5.jpg"},
+    {"name": "6", "src": "https://i.ibb.co/Bt9pdnC/01-6.jpg"},
+    {"name": "7", "src": "https://i.ibb.co/j8bwxhc/01-7.jpg"},
+    {"name": "8", "src": "https://i.ibb.co/dpVzNMZ/01-8.jpg"},
+    {"name": "9", "src": "https://i.ibb.co/x3mPWhd/01-9.jpg"},
+    {"name": "10", "src": "https://i.ibb.co/2qvFCV3/01-10.jpg"},
+    {"name": "11", "src": "https://i.ibb.co/d6FHQMM/01-11.jpg"},
+    {"name": "12", "src": "https://i.ibb.co/HP00Rxz/01-12.jpg"},
+    {"name": "13", "src": "https://i.ibb.co/2KKyCVg/01-13.jpg"},
+    {"name": "14", "src": "https://i.ibb.co/87QF0mH/01-14.jpg"},
+    {"name": "15", "src": "https://i.ibb.co/Msw8VGc/01-15.jpg"},
+    {"name": "16", "src": "https://i.ibb.co/tsftXKZ/01-16.jpg"},
+    {"name": "17", "src": "https://i.ibb.co/r6kq6C2/01-17.jpg"},
+    {"name": "18", "src": "https://i.ibb.co/h228qKT/01-18.jpg"},
+    {"name": "19", "src": "https://i.ibb.co/5GYPqP6/01-19.jpg"}
+]

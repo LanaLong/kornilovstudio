@@ -1,7 +1,18 @@
 @import url(../../vendor/normalize.css);
 @import url(../../vendor/fonts.css);
+@import url(../../../node_modules/@fortawesome/fontawesome-free/css/all.css);
+@import url(../../blocks/container/container.css);
+@import url(../../blocks/header/header.css);
+@import url(../../blocks/fullscreen-bg/fullscreen-bg.css);
+@import url(../../blocks/cover-heading/cover-heading.css);
+@import url(../../blocks/nav/nav.css);
+@import url(../../blocks/logo/logo.css);
+@import url(../../blocks/intro/intro.css);
+@import url(../../blocks/contact/contact.css);
+@import url(../../blocks/menu-toggle/menu-toggle.css);
 @import url(../../blocks/isotope/__grid/isotope__grid.css);
 
 * {
     box-sizing: border-box;
+    background-color: #1c1c1b;
 }
